@@ -1,2 +1,2 @@
 # ubuntu-scripts
-Script de instalação de ambiente
+Script de instalação de ambiente.
