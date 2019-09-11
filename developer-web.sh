@@ -5,7 +5,7 @@
 # DNS
 sudo nano /etc/resolv.conf && \
 
-# Docker
+# Utilitarios
 sudo apt-get update && \
 sudo apt-get install -y \
     git \
@@ -15,6 +15,8 @@ sudo apt-get install -y \
     curl \
     gnupg-agent \
     software-properties-common && \
+
+# Docker
 curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add - && \
 sudo add-apt-repository \
    "deb [arch=amd64] https://download.docker.com/linux/ubuntu \
@@ -22,7 +24,9 @@ sudo add-apt-repository \
    stable" && \
 sudo apt-get update && \
 sudo apt-get install -y docker-ce docker-ce-cli containerd.io && \
-sudo docker run hello-world && \
+sudo usermod -aG docker $USER && \
+newgrp docker && \
+docker run hello-world && \
 
 # Docker-compose
 sudo curl -L "https://github.com/docker/compose/releases/download/1.24.1/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose && \
