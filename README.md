@@ -3,12 +3,13 @@
 ## Descrição
 Script para instalação de ambiente de desenvolvimento Ubuntu.
 
-- Docker
-- Docker-compose
-- Node/NPM
-- VsCode
-- Chrome
-- Utilitários
+- git
+- docker
+- docker-compose
+- node/npm
+- vscode
+- chrome
+- utilitários ubuntu
 
 ## Pré-requisitos
 - Ubuntu 18.04
