@@ -1,7 +1,7 @@
 # ubuntu-scripts
 
 ## Descrição
-Script para instalação de ambiente de desenvolvimento Ubuntu.
+Scripts para instalação de ambiente de desenvolvimento Ubuntu.
 
 - git
 - docker
@@ -20,3 +20,11 @@ $ chmod +X developer-web.sh
 $ ./developer-web.sh
 ```
 Preste atenção pois o script pode solicitar sua interação.
+
+### Arquivos individuais
+- Composer
+```
+$ chmod +X composer-install.sh
+$ ./composer-install.sh
+```
+- Em breve...
