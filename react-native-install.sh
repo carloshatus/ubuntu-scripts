@@ -34,9 +34,9 @@ unzip Android/Sdk.zip -d Android/Sdk && \
 export ANDROID_HOME=~/Android/Sdk && \
 export PATH=$PATH:$ANDROID_HOME/tools && \
 export PATH=$PATH:$ANDROID_HOME/platform-tools && \
-# echo ANDROID_HOME=~/Android/Sdk >> ~/.profile && \
-# echo PATH=$PATH:$ANDROID_HOME/tools >> ~/.profile && \
-# echo PATH=$PATH:$ANDROID_HOME/platform-tools >> ~/.profile && \
+echo 'ANDROID_HOME=~/Android/Sdk' >> ~/.profile && \
+echo 'PATH=$PATH:$ANDROID_HOME/tools' >> ~/.profile && \
+echo 'PATH=$PATH:$ANDROID_HOME/platform-tools' >> ~/.profile && \
 ~/Android/Sdk/tools/bin/sdkmanager "platform-tools" "platforms;android-27" "build-tools;27.0.3" && \
 android && \
 
