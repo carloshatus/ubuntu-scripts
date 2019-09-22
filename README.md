@@ -33,7 +33,7 @@ $ ./composer-install.sh
   - node/npm
   - react-native-cli
   - OpenJDK 8
-  - Android studio
+  - Android SDK
 ```
 $ chmod +X react-native-install.sh
 $ ./react-native-install.sh
