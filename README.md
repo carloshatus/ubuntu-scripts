@@ -23,8 +23,19 @@ Preste atenção pois o script pode solicitar sua interação.
 
 ### Arquivos individuais
 - Composer
+  - PHP
+  - composer
 ```
 $ chmod +X composer-install.sh
 $ ./composer-install.sh
+```
+- React native
+  - node/npm
+  - react-native-cli
+  - OpenJDK 8
+  - Android studio
+```
+$ chmod +X react-native-install.sh
+$ ./react-native-install.sh
 ```
 - Em breve...
